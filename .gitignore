@@ -1,3 +1,30 @@
-FibTac_data/
-notebook/.ipynb_checkpoints/
-results/
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local environments
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Large data and model files
+FibTac_data/*
+!FibTac_data/README.md
+checkpoints/*
+!checkpoints/README.md
+results/*
+!results/README.md
+*.7z
+*.zip
+*.pth
+*.pt
+*.ckpt
+*.xlsx
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
