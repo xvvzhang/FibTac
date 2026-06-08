@@ -1,0 +1,16 @@
+# Minimal dependencies for the FibTac evaluation notebooks.
+# Python >= 3.10 is recommended.
+# For CUDA support, install the PyTorch/torchvision builds matching your CUDA version.
+
+numpy
+pandas
+torch
+torchvision
+opencv-python
+kornia
+scikit-learn
+matplotlib
+seaborn
+openpyxl
+jupyterlab
+ipykernel
